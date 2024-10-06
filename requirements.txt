@@ -1,0 +1,6 @@
+apache-beam[gcp]
+sqlalchemy
+psycopg2-binary
+pandas
+requests
+google-cloud-storage
