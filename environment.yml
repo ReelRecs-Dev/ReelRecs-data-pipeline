@@ -1,0 +1,13 @@
+name: myenv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.20
+  - sqlalchemy
+  - psycopg2
+  - pandas
+  - requests
+  - google-cloud-storage
+  - pip
+  - pip:
+    - apache-beam[gcp]

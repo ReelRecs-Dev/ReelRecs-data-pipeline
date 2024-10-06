@@ -1,3 +1,5 @@
+import apache_beam as beam
+
 class TransformMovieLensData(beam.PTransform):
     def expand(self, pcoll):
         def transform_data(data):

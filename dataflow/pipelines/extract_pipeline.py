@@ -1,3 +1,4 @@
+import apache_beam as beam
 import requests
 import zipfile
 import os

@@ -1,3 +1,4 @@
+import apache_beam as beam
 from sqlalchemy import create_engine
 from config.settings import DATABASE_URI
 
